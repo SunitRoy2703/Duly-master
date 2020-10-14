@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:text="Academics"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:elevation="380dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:id="@+id/firstRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <Button
+                        android:backgroundTint="#ff6416"
+                        android:textSize="11sp"
+                        android:textColor="#ffffff"
+                        android:paddingTop="20dp"
+                        android:elevation="80dp"
+                        android:id="@+id/markAttendance"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:drawableTop="@drawable/attendancestu"
+                        android:text="My Attendance" />
+
+                    <Button
+                        android:paddingTop="20dp"
+                        android:textColor="#ffffff"
+                        android:elevation="80dp"
+                        android:backgroundTint="#ff6416"
+                        android:textSize="11sp"
+                        android:maxLines="3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:drawableTop="@drawable/assignment"
+                        android:text="My Assignment" />
+
+                    <Button
+                        android:paddingTop="20dp"
+                        android:elevation="80dp"
+                        android:backgroundTint="#ff6416"
+                        android:textSize="13sp"
+                        android:layout_width="100dp"
+                        android:textColor="#ffffff"
+                        android:layout_height="100dp"
+                        android:drawableTop="@drawable/markss"
+                        android:text="My Mark" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/firstRow"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:paddingTop="20dp"
+                        android:elevation="80dp"
+                        android:textColor="#ffffff"
+                        android:backgroundTint="#ff6416"
+                        android:textSize="13sp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:drawableTop="@drawable/add_exam"
+                        android:text="Exam" />
+
+                    <Button
+                        android:paddingTop="20dp"
+                        android:elevation="80dp"
+                        android:backgroundTint="#ff6416"
+                        android:textSize="13sp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:textColor="#ffffff"
+                        android:drawableTop="@drawable/notes"
+                        android:text="Note" />
+
+                    <Button
+                        android:textColor="#ffffff"
+                        android:paddingTop="20dp"
+                        android:elevation="80dp"
+                        android:backgroundTint="#ff6416"
+                        android:textSize="13sp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:drawableTop="@drawable/announcement"
+                        android:text="@string/announcement" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "808237253974",
+    "firebase_url": "https://duly3-224da.firebaseio.com",
+    "project_id": "duly3-224da",
+    "storage_bucket": "duly3-224da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808237253974:android:1bba2687df8707dc8642f7",
+        "android_client_info": {
+          "package_name": "developer.com.sunit.duly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808237253974-jetgihbu97hmvj4p2h31go0s9hk2sbem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "developer.com.sunit.duly",
+            "certificate_hash": "5a5ea7bac74983b5b88914203083c91deeccf41b"
+          }
+        },
+        {
+          "client_id": "808237253974-pbbmrghpp7jtfuegm0ej4pctam9mho0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfKoN6lqlxCnl99OUkcSX3btZvbGV33Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808237253974-pbbmrghpp7jtfuegm0ej4pctam9mho0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+
+}

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:text="Academics"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="230dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:elevation="380dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:id="@+id/firstRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <Button
+                  android:backgroundTint="#ff6416"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                   android:paddingTop="20dp"
+                    android:elevation="80dp"
+                    android:id="@+id/markAttendance"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:drawableTop="@drawable/attendance"
+                    android:text="Mark Attendance" />
+
+                <Button
+                    android:paddingTop="20dp"
+                    android:textColor="#ffffff"
+                    android:elevation="80dp"
+                    android:backgroundTint="#ff6416"
+                    android:textSize="13sp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:drawableTop="@drawable/assignment"
+                    android:text="Assignment" />
+
+                <Button
+                    android:paddingTop="20dp"
+                    android:elevation="80dp"
+                    android:backgroundTint="#ff6416"
+                    android:textSize="13sp"
+                    android:layout_width="100dp"
+                    android:textColor="#ffffff"
+                    android:layout_height="100dp"
+                    android:drawableTop="@drawable/add_mark"
+                    android:text="Add Marks" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/firstRow"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <Button
+                    android:paddingTop="20dp"
+                    android:elevation="80dp"
+                    android:textColor="#ffffff"
+                    android:backgroundTint="#ff6416"
+                    android:textSize="13sp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:drawableTop="@drawable/add_exam"
+                    android:text="Add Exam" />
+
+                <Button
+                    android:paddingTop="20dp"
+                    android:elevation="80dp"
+                    android:backgroundTint="#ff6416"
+                    android:textSize="13sp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:textColor="#ffffff"
+                    android:drawableTop="@drawable/note"
+                    android:text="Add Notes" />
+
+                <Button
+                    android:textColor="#ffffff"
+                    android:paddingTop="20dp"
+                    android:elevation="80dp"
+                    android:backgroundTint="#ff6416"
+                    android:textSize="10sp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:drawableTop="@drawable/announcement"
+                    android:text="@string/announcement" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+    <TextView
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:text="Admin"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:cardUseCompatPadding="true"
+            android:layout_weight="1"
+            android:elevation="380dp"
+            app:cardBackgroundColor="#ffffff"
+
+            app:cardCornerRadius="20dp">
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                   android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <Button
+
+
+                        android:backgroundTint="#ff6416"
+                        android:textSize="13sp"
+                        android:paddingTop="20dp"
+                        android:elevation="80dp"
+                        android:id="@+id/addStudent"
+                        android:textColor="#ffffff"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:drawableTop="@drawable/add_student"
+                        android:text="Add Student" />
+
+                    <Button
+                        android:paddingTop="20dp"
+                        android:elevation="80dp"
+                        android:backgroundTint="#ff6416"
+                        android:textSize="13sp"
+                        android:textColor="#ffffff"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:drawableTop="@drawable/transport"
+                        android:text="Transport" />
+
+                    <Button
+                        android:paddingTop="20dp"
+                        android:elevation="80dp"
+                        android:textColor="#ffffff"
+                        android:backgroundTint="#ff6416"
+                        android:textSize="13sp"
+                        android:id="@+id/notice"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:drawableTop="@drawable/communicte"
+                        android:text="Notice" />
+                </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

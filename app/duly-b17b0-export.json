@@ -1,0 +1,176 @@
+{
+	"Class": {
+		"7": {
+			"-LQO5tnnY12qEJd6l1So": {
+				"name": "Krishna",
+				"roll": "1"
+			},
+			"-LQO5vPZI22Tl_X7KtzQ": {
+				"name": "John",
+				"roll": "2"
+			},
+			"-LQO8Jd15ghrOg2XJYs4": {
+				"name": "Aman",
+				"roll": "3"
+			},
+			"-LQOCRY3rtocOCwFOtZF": {
+				"name": "Soumya",
+				"roll": "4"
+			},
+			"-LQOEHy5HewWtMyHfM1ZU": {
+				"name": "Suhvvs",
+				"roll": "5"
+			},
+			"-LQOETyhrawuHbvh-dqh": {
+				"name": "rahul",
+				"roll": "123"
+			}
+
+
+
+		},
+		"8": {
+			"-LQO5tnnY3weEJd6l1So": {
+				"name": "Krishna",
+				"roll": "1"
+			},
+			"-LQO5vPZI23weTl_X7KtzQ": {
+				"name": "John",
+				"roll": "2"
+			},
+			"-LQO8Jd15JhrOw3g2XJYs4": {
+				"name": "Aman",
+				"roll": "3"
+			},
+			"-LQOCRY34SocOCw3wFOtZF": {
+				"name": "Soumya",
+				"roll": "4"
+			},
+			"-LQOEHy5HkWtMyHfM3w1ZU": {
+				"name": "Suhvvs",
+				"roll": "5"
+			},
+			"-LQOETyhraLuHbvh-dqw3h": {
+				"name": "rahul",
+				"roll": "123"
+			}
+
+
+		},
+		"9": {
+			"-LQO5tnnY33qEJd6l1Sw3o": {
+				"name": "Krishna",
+				"roll": "1"
+			},
+			"-LQO5vPZI23Tl_X73wKtzQ": {
+				"name": "John",
+				"roll": "2"
+			},
+			"-LQO8Jd15JhrOg2XJYw3s4": {
+				"name": "Aman",
+				"roll": "3"
+			},
+			"-LQOCRY34SocOCwFOtZFw33": {
+				"name": "Soumya",
+				"roll": "4"
+			}
+			},
+
+
+
+
+
+			"10": {"-LQO5tnnY33qEJd6l1So": {
+					"name": "Krishna",
+					"roll": "1"
+				},
+				"-LQO5vPZI23Tl_X7KtzQ": {
+					"name": "John",
+					"roll": "2"
+				},
+				"-LQO8Jd15JhrOg2XJYs4": {
+					"name": "Aman",
+					"roll": "3"
+				}
+
+			},
+			"11": {
+				"-LQO5tnnY33qEJd6l1So": {
+					"name": "Krishna",
+					"roll": "1"
+				},
+				"-LQO5vPZI23Tl_X7KtzQ": {
+					"name": "John",
+					"roll": "2"
+				},
+				"-LQO8Jd15JhrOg2XJYs4": {
+					"name": "Aman",
+					"roll": "3"
+				}
+			},
+
+
+
+
+
+
+
+
+			"12": {
+				"-LQO5tnnY33qEJd6l1So": {
+					"name": "Krishna",
+					"roll": "1"
+				},
+				"-LQO5vPZI23Tl_X7KtzQ": {
+					"name": "John",
+					"roll": "2"
+				},
+				"-LQO8Jd15JhrOg2XJYs4": {
+					"name": "Aman",
+					"roll": "3"
+				},
+				"-LQOCRY34SocOCwFOtZF": {
+					"name": "Soumya",
+					"roll": "4"
+				},
+				"-LQOEHy5HkWtMyHfM1ZU": {
+					"name": "Suhvvs",
+					"roll": "5"
+				},
+				"-LQOETyhraLuHbvh-dqh": {
+					"name": "rahul",
+					"roll": "123"
+				}
+			}
+		},
+		"notice": {
+			"-LQO5nwq67DfpPb1ZLRN": {
+				"body": "Diwali holiday from 5th Nov",
+				"dept": "Academic",
+				"teacher": "Krishna(Compt Dept)",
+				"time": "2/11/18",
+				"title": "Holiday"
+			},
+			"-LQO8i9Wk5dpC72nCTan": {
+				"body": "Due to winter, classes will commence from 8Am",
+				"dept": "Academic",
+				"teacher": "Krishna(Compt Dept)",
+				"time": "2/11/18",
+				"title": "Class timings"
+			},
+			"-LQOEDrg-ZNIOn_mCD9o": {
+				"body": "nfjfjjdj",
+				"dept": "Academic",
+				"teacher": "Krishna(Compt Dept)",
+				"time": "2/11/18",
+				"title": "jjdhdbdbb"
+			},
+			"-LQrAWrpEuPRLTXe99y2": {
+				"body": "gtggtgt",
+				"dept": "Academic",
+				"teacher": "Krishna(Compt Dept)",
+				"time": "2/11/18",
+				"title": "hggtytyy"
+			}
+		}
+	}

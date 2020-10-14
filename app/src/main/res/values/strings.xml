@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="mobile">Enter Mobile Number</string>
+    <string name="app_name">Duly</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="prompt_otp">Enter OTP</string>
+    <string name="verify">Verify</string>
+    <string name="enroll">Enroll a new Student</string>
+    <string name="submit">Submit</string>
+    <string name="announcement">Announcement</string>
+    <string name="notice">Noticeboard</string>
+    <string name="me">Me</string>
+    <string name="add_announce">Add a new announcement</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="attendance">Attendance</string>
+    <string name="event">Event</string>
+</resources>

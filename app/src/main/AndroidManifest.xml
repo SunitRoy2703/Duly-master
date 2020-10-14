@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="developer.com.sunit.duly">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name="developer.com.sunit.duly.Duly"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="developer.com.sunit.duly.Teacher_main">
+
+        </activity>
+        <activity android:name="developer.com.sunit.duly.presenter.AddNotice"/>
+        <activity android:name="developer.com.sunit.duly.presenter.AddStudent"/>
+        <activity android:name="developer.com.sunit.duly.presenter.MarkAttendance"/>
+        <activity android:name="developer.com.sunit.duly.presenter.DateClass"
+            android:noHistory="true"/>
+        <activity android:name="developer.com.sunit.duly.EntryActivity"
+            android:noHistory="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name="developer.com.sunit.duly.Teacher_login"/>
+        <activity android:name="developer.com.sunit.duly.Student_login"
+            android:noHistory="true"/>
+        <activity android:name="developer.com.sunit.duly.Student_main"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:elevation="380dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/timeStamp"
+            android:text="25/09/12"
+            android:layout_marginTop="7dp"
+           android:layout_marginEnd="50dp"
+             android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/dept"
+        android:text="Academic"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/title"
+            android:textColor="#ff6416"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textStyle="italic"
+            android:layout_marginStart="40dp"
+            android:layout_below="@id/dept"
+            android:text="2/10/12 will be holiday" />
+        <TextView
+            android:layout_below="@id/title"
+            android:layout_marginStart="8dp"
+            android:id="@+id/body"
+            android:gravity="center"
+            android:text="On the auspicious occassion of Gandhi Jayanti 2nd Ocotober will be holiday."
+            android:layout_width="400dp"
+            android:fontFamily="monospace"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="UPLOADED BY:-"
+            android:id="@+id/text"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toEndOf="@id/text"
+            android:layout_below="@id/body"
+            android:id="@+id/teacher"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="8dp"
+            android:text="Krishna(Computer Dept)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+</LinearLayout>

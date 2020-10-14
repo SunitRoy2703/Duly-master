@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:icon="@drawable/dashboard"
+    android:id="@+id/dashboard"
+    android:title="@string/dashboard"/>
+    <item
+        android:icon="@drawable/noticeboard"
+        android:id="@+id/notice"
+        android:title="@string/notice"/>
+    <item
+        android:icon="@drawable/event"
+        android:id="@+id/event"
+        android:title="@string/event"/>
+
+    <item
+        android:icon="@drawable/user"
+        android:id="@+id/me"
+        android:title="@string/me"/>
+
+</menu>

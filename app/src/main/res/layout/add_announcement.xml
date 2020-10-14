@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:elevation="55dp"
+    android:layout_height="300dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/name"
+        android:hint="Event name"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+       android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Department"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
